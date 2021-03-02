@@ -1,9 +1,12 @@
-var mail = (prompt("Dammi la tua cazzo di mail porcodddudo"));
-
+// Chiedo la mail
+var mail = prompt("Inserisca quì la sua mail");
+// Stampo la mail
 console.log(mail);
+// Arrey mail
+var listaMail = ["ernesto.pippetto@gmail.com", "carizzo.carina@yandex.com", "santorzo.giorgio@yandex.com", "magio.lamela@gmail.com", "thecat.isonthetable@gmail.com", "noncho.fantasia@gmail.com"];
 
-var listaMail = ["ernesto.pippetto@gmail.com", "carizzo.carina@yandex.com", "santorzo.giorgio@yandex.com", "magio.lamela@gmail.com", "thecat.isonthetable@gmail.com", "non.chofantasia@gmail.com"];
 
+// Check
 var soldatino = false;
 
 for (var i = 0; i < mail.length; i++) {
@@ -13,8 +16,7 @@ for (var i = 0; i < mail.length; i++) {
 }
 
 if (soldatino) {
-    console.log("C'è");
+    console.log("Accesso effettuato");
 } else {
-    console.log("NON C'È");
+    console.log("La sua mail non esiste nei nostri sistemi");
 }
-
